@@ -13,6 +13,10 @@ public class Aluno {
         return nome;
     }
 
+    public void setTelefone(String telefone){
+        this.telefone = telefone;
+    }
+
     public String toString() {
         return nome + " : " + telefone;
     }

@@ -11,13 +11,12 @@ public class App {
         figuras.add(new Triangulo(12, 13, 14));
         figuras.add(new Triangulo(2, 3, 4));
 
-/*      for (Figura figura : figuras) {
-            System.out.println("Perímetro: " + figura.perimetro());
-        } */
-
-        System.out.println(figuras.get(0).perimetro(((Quadrado)figuras.get(0)).getLado()));
+/*         System.out.println(figuras.get(0).perimetro(((Quadrado) figuras.get(0)).getLado()));
         System.out.println(figuras.get(0).perimetro(11.5, 11.5));
-        System.out.println(figuras.get(0).perimetro(12, 13, 14));
+        System.out.println(figuras.get(0).getPerimetro()); */
 
+        for (Figura figura : figuras) {
+            System.out.println("Perímetro: " + figura.getPerimetro());
+        }
     }
 }

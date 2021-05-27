@@ -9,4 +9,9 @@ public class Triangulo implements Figura {
         this.lado3 = lado3;
     }
 
+    @Override
+    public double getPerimetro() {
+        return perimetro(lado1, lado2, lado3);
+    }
+
 }

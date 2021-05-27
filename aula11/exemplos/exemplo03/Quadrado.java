@@ -10,4 +10,9 @@ public class Quadrado implements Figura {
     public double getLado() {
         return lado;
     }
+
+    @Override
+    public double getPerimetro() {
+        return perimetro(lado, lado);
+    }
 }

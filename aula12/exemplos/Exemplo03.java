@@ -6,7 +6,7 @@ public class Exemplo03 {
 
         // System.out.println(letra1(frase, 2));
         
-        // System.out.println(letra2(frase, 2));
+        System.out.println(letra2(frase, 2));
 
         try {
             System.out.println(letra3(frase, 2));
@@ -29,6 +29,8 @@ public class Exemplo03 {
             System.out.println("Erro dentro do método");
             return '@';
             // throw new Exception(e);
+        } finally {
+            System.out.println("Fechando conexões");
         }
     }
 

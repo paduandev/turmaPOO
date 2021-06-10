@@ -6,6 +6,13 @@ public class AppFiguras {
     public static void main(String[] args) {
         ArrayList<Figuras> lista = new ArrayList<>();
 
+        // Figuras f = new Triangulo();
+/*         Triangulo t = new Triangulo();
+
+        Figuras f = t;
+
+        t = (Triangulo) f; */
+
         lista.add(new Quadrado());
         lista.add(new Quadrado());
         lista.add(new Triangulo());
